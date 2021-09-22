@@ -2,7 +2,31 @@
 Use C++ with opencv to find human face in static image
 
 IDE setting
-1. ![NECO](https://user-images.githubusercontent.com/76464072/134361398-a30c6b78-55cd-408c-a9b8-00d519b55ed7.jpeg)
+1. Install OpenCV on windows for C++ (https://github.com/opencv/opencv/releases)
+2. Add bin folder to the Enviromment variable path
+3. Create a new C++ profile console
+4. Add Directories by going to Project-Properties-Configuration Properties
+![螢幕擷取畫面 2021-09-22 222134](https://user-images.githubusercontent.com/76464072/134366169-d29e5dbb-9677-47f6-a63a-ab2e679d8757.png)
+![螢幕擷取畫面 2021-09-22 223221](https://user-images.githubusercontent.com/76464072/134366189-823617bd-cccf-4fe4-852f-805366cb3b9d.png)
+5. Run test code below:
 
-2.
-3.
+/////////////Test ////////////////
+
+
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/objdetect.hpp>
+#include <iostream>
+
+using namespace cv;
+using namespace std;
+
+
+int main() {
+	string path = "Resources/human_face.png";
+	Mat img = imread(path);
+	imshow("Image", img);
+	waitKey(0);
+  return 0
+}
