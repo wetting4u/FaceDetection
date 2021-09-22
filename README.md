@@ -1,5 +1,10 @@
 ## FaceDetection
-Use C++ with opencv to find human face in static image
+Use C++ with opencv to find human face in static image, if you don't know how to setting the environvent for OpenCV, you could do the IDE setting first\n
+then add a new file in resource folder, then paste the "FaceDetection.cpp" code onto it.
+
+the output will show like this picture:
+![image](https://user-images.githubusercontent.com/76464072/134395899-a50fc53b-34b2-4afd-b78d-e752c9424283.png)
+
 
 * IDE setting
     1. Install OpenCV on windows for C++ 
