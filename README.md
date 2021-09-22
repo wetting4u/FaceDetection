@@ -8,25 +8,4 @@ IDE setting
 4. Add Directories by going to Project-Properties-Configuration Properties
 ![螢幕擷取畫面 2021-09-22 222134](https://user-images.githubusercontent.com/76464072/134366169-d29e5dbb-9677-47f6-a63a-ab2e679d8757.png)
 ![螢幕擷取畫面 2021-09-22 223221](https://user-images.githubusercontent.com/76464072/134366189-823617bd-cccf-4fe4-852f-805366cb3b9d.png)
-5. Run test code below:
-
-/////////////Test ////////////////
-
-
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/highgui.hpp>
-#include <opencv2/imgproc.hpp>
-#include <opencv2/objdetect.hpp>
-#include <iostream>
-
-using namespace cv;
-using namespace std;
-
-
-int main() {
-	string path = "Resources/human_face.png";
-	Mat img = imread(path);
-	imshow("Image", img);
-	waitKey(0);
-  return 0
-}
+5. Run "Test_Code" in my github file:
